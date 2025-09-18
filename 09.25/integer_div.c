@@ -30,5 +30,9 @@ int main(int argc, char* argv[]) {
         return -1;
     }
 
+    if (b == 0) {
+        printf("Division by 0 is not allowed");
+    }
+
     printf("%d\n", div_int(a, b));
 }
